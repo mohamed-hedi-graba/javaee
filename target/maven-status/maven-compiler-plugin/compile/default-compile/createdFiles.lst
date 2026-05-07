@@ -1,0 +1,12 @@
+ma/tp/studentevents/model/User.class
+ma/tp/studentevents/controller/ProfileController.class
+ma/tp/studentevents/controller/EventController.class
+ma/tp/studentevents/config/WebConfig.class
+ma/tp/studentevents/controller/AuthController.class
+ma/tp/studentevents/config/AppInitializer.class
+ma/tp/studentevents/config/AppConfig.class
+ma/tp/studentevents/dao/EventDao.class
+ma/tp/studentevents/model/Event.class
+ma/tp/studentevents/service/UserService.class
+ma/tp/studentevents/service/EventService.class
+ma/tp/studentevents/dao/UserDao.class

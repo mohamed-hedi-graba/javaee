@@ -1,0 +1,12 @@
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/config/AppInitializer.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/dao/EventDao.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/service/UserService.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/dao/UserDao.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/controller/AuthController.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/model/Event.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/config/WebConfig.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/controller/EventController.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/controller/ProfileController.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/config/AppConfig.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/model/User.java
+/home/lhadi/tpjava/src/main/java/ma/tp/studentevents/service/EventService.java

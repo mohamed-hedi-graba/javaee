@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head(#{event.title})}"></head>
+<body>
+    <div th:replace="~{layout :: navbar}"></div>
+
+    <div class="container mt-5">
+        <h2 class="mb-4" th:text="#{event.title}">Events Portal</h2>
+
+        <!-- Search Bar -->
+        <form th:action="@{/events}" method="get" class="mb-4">
+            <div class="input-group">
+                <input type="text" name="search" class="form-control" th:placeholder="#{event.search}" th:value="${search}">
+                <!-- Preserve language parameter if it exists -->
+                <input type="hidden" name="lang" th:if="${param.lang}" th:value="${param.lang}">
+                <button class="btn btn-primary" type="submit" th:text="#{event.search.btn}">Search</button>
+            </div>
+        </form>
+
+        <!-- Events List -->
+        <h4 th:text="#{event.list}">Events List</h4>
+        
+        <div th:if="${#lists.isEmpty(events)}" class="alert alert-warning" th:text="#{event.none}">
+            No events found.
+        </div>
+
+        <div class="row" th:unless="${#lists.isEmpty(events)}">
+            <div class="col-md-4 mb-3" th:each="event : ${events}">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary" th:text="${event.title}">Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" th:text="${#dates.format(event.eventDate, 'dd/MM/yyyy')}">Date</h6>
+                        <p class="card-text" th:text="${event.description}">Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
