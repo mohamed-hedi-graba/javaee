@@ -298,3 +298,12 @@ Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenem
 Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
 Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
 Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0 where lower(e1_0.title) like replace(?,'\\','\\\\') or lower(e1_0.description) like replace(?,'\\','\\\\')
