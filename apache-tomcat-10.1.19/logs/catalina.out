@@ -1,0 +1,300 @@
+08-May-2026 21:56:20.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+08-May-2026 21:56:20.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+08-May-2026 21:56:20.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+08-May-2026 21:56:20.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.3-arch1-2
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-26-openjdk
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Arch Linux
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:56:20.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lhadi/tpjava/apache-tomcat-10.1.19/conf/logging.properties
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2026 21:56:20.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-May-2026 21:56:20.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-May-2026 21:56:20.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2026 21:56:20.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:56:20.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:56:20.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lhadi/tpjava/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/home/lhadi/tpjava/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+08-May-2026 21:56:20.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2026 21:56:20.375 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:56:20.409 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [487] milliseconds
+08-May-2026 21:56:20.457 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2026 21:56:20.457 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+08-May-2026 21:56:20.487 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war]
+08-May-2026 21:56:21.845 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-May-2026 21:56:22.310 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+08-May-2026 21:56:22.361 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+08-May-2026 21:56:22.621 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+08-May-2026 21:56:22.634 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+08-May-2026 21:56:22.973 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+08-May-2026 21:56:23.592 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table evenements (id bigint not null auto_increment, description varchar(1000), eventDate date, title varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table utilisateurs (id bigint not null auto_increment, email varchar(255), name varchar(255), password varchar(255), primary key (id)) engine=InnoDB
+Hibernate: alter table utilisateurs drop index UK_6ldvumu3hqvnmmxy1b6lsxwqy
+Hibernate: alter table utilisateurs add constraint UK_6ldvumu3hqvnmmxy1b6lsxwqy unique (email)
+08-May-2026 21:56:23.795 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+08-May-2026 21:56:23.798 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+08-May-2026 21:56:23.804 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-May-2026 21:56:23.804 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:391)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+ java.base/java.lang.Thread.run(Thread.java:1516)
+08-May-2026 21:56:23.814 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war] has finished in [3,325] ms
+08-May-2026 21:56:23.816 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:56:23.822 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3411] milliseconds
+08-May-2026 21:56:28.167 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:971)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+		at java.base/java.lang.Thread.run(Thread.java:1516)
+08-May-2026 21:57:02.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-May-2026 21:57:02.456 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:57:02.459 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2026 21:57:02.462 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:57:02.463 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:57:05.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+08-May-2026 21:57:05.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+08-May-2026 21:57:05.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+08-May-2026 21:57:05.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2026 21:57:05.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.3-arch1-2
+08-May-2026 21:57:05.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2026 21:57:05.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-26-openjdk
+08-May-2026 21:57:05.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1
+08-May-2026 21:57:05.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Arch Linux
+08-May-2026 21:57:05.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:57:05.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:57:05.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lhadi/tpjava/apache-tomcat-10.1.19/conf/logging.properties
+08-May-2026 21:57:05.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 21:57:05.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lhadi/tpjava/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/home/lhadi/tpjava/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+08-May-2026 21:57:05.935 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2026 21:57:06.170 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:57:06.184 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [452] milliseconds
+08-May-2026 21:57:06.222 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2026 21:57:06.223 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+08-May-2026 21:57:06.250 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war]
+08-May-2026 21:57:07.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-May-2026 21:57:07.977 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+08-May-2026 21:57:08.029 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+08-May-2026 21:57:08.289 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+08-May-2026 21:57:08.307 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+08-May-2026 21:57:08.642 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+08-May-2026 21:57:09.242 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: insert into evenements (description,eventDate,title) values (?,?,?)
+Hibernate: insert into evenements (description,eventDate,title) values (?,?,?)
+Hibernate: insert into evenements (description,eventDate,title) values (?,?,?)
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+08-May-2026 21:57:09.914 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war] has finished in [3,663] ms
+08-May-2026 21:57:09.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2026 21:57:09.925 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3738] milliseconds
+08-May-2026 21:58:53.406 INFO [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060x1c0x010x000x060x180x030x030x1c0xf20xc5T ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1516)
+08-May-2026 22:00:18.306 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-May-2026 22:00:18.307 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:00:18.308 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2026 22:00:18.324 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-May-2026 22:00:18.325 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:391)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+ java.base/java.lang.Thread.run(Thread.java:1516)
+08-May-2026 22:00:18.337 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:00:18.342 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:00:20.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.3-arch1-2
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-26-openjdk
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1
+08-May-2026 22:00:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Arch Linux
+08-May-2026 22:00:20.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:00:20.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:00:20.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lhadi/tpjava/apache-tomcat-10.1.19/conf/logging.properties
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2026 22:00:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:00:20.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:00:20.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lhadi/tpjava/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/home/lhadi/tpjava/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+08-May-2026 22:00:20.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2026 22:00:21.056 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:00:21.082 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [491] milliseconds
+08-May-2026 22:00:21.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2026 22:00:21.128 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+08-May-2026 22:00:21.148 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war]
+08-May-2026 22:00:22.418 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-May-2026 22:00:22.915 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+08-May-2026 22:00:22.966 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+08-May-2026 22:00:23.245 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+08-May-2026 22:00:23.261 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+08-May-2026 22:00:24.018 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+08-May-2026 22:00:24.718 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+08-May-2026 22:00:25.387 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war] has finished in [4,235] ms
+08-May-2026 22:00:25.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:00:25.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4314] milliseconds
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: insert into utilisateurs (email,name,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: insert into utilisateurs (email,name,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0 where lower(e1_0.title) like replace(?,'\\','\\\\') or lower(e1_0.description) like replace(?,'\\','\\\\')
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+08-May-2026 22:03:47.304 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-May-2026 22:03:47.305 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:03:47.306 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2026 22:03:47.321 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-May-2026 22:03:47.321 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:391)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+ java.base/java.lang.Thread.run(Thread.java:1516)
+08-May-2026 22:03:47.324 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:03:47.328 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:03:49.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+08-May-2026 22:03:49.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+08-May-2026 22:03:49.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+08-May-2026 22:03:49.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2026 22:03:49.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.3-arch1-2
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-26-openjdk
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Arch Linux
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:03:49.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:03:49.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lhadi/tpjava/apache-tomcat-10.1.19/conf/logging.properties
+08-May-2026 22:03:49.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2026 22:03:49.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lhadi/tpjava/apache-tomcat-10.1.19
+08-May-2026 22:03:49.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lhadi/tpjava/apache-tomcat-10.1.19/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/home/lhadi/tpjava/apache-tomcat-10.1.19/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+08-May-2026 22:03:49.774 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2026 22:03:49.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:03:50.009 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [452] milliseconds
+08-May-2026 22:03:50.042 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2026 22:03:50.042 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+08-May-2026 22:03:50.058 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war]
+08-May-2026 22:03:51.267 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+08-May-2026 22:03:51.800 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+08-May-2026 22:03:51.850 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+08-May-2026 22:03:52.106 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$1.execute HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+08-May-2026 22:03:52.128 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+08-May-2026 22:03:52.511 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+08-May-2026 22:03:53.097 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+08-May-2026 22:03:53.798 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lhadi/tpjava/apache-tomcat-10.1.19/webapps/ROOT.war] has finished in [3,738] ms
+08-May-2026 22:03:53.800 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2026 22:03:53.806 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3795] milliseconds
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: insert into utilisateurs (email,name,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from utilisateurs u1_0 where u1_0.email=?
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0 where lower(e1_0.title) like replace(?,'\\','\\\\') or lower(e1_0.description) like replace(?,'\\','\\\\')
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0 where lower(e1_0.title) like replace(?,'\\','\\\\') or lower(e1_0.description) like replace(?,'\\','\\\\')
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0
+Hibernate: select e1_0.id,e1_0.description,e1_0.eventDate,e1_0.title from evenements e1_0

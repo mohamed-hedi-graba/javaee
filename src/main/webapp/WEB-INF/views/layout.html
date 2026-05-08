@@ -37,13 +37,13 @@
                     
                     <!-- Language selector -->
                     <li class="nav-item ms-3">
-                        <a class="nav-link" th:href="@{${#httpServletRequest.requestURI}(lang='fr')}">🇫🇷 <span th:text="#{nav.lang.fr}">FR</span></a>
+                        <a class="nav-link" th:href="@{''(lang='fr')}">🇫🇷 <span th:text="#{nav.lang.fr}">FR</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:href="@{${#httpServletRequest.requestURI}(lang='en')}">🇬🇧 <span th:text="#{nav.lang.en}">EN</span></a>
+                        <a class="nav-link" th:href="@{''(lang='en')}">🇬🇧 <span th:text="#{nav.lang.en}">EN</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" th:href="@{${#httpServletRequest.requestURI}(lang='ar')}">🇲🇦 <span th:text="#{nav.lang.ar}">AR</span></a>
+                        <a class="nav-link" th:href="@{''(lang='ar')}">🇲🇦 <span th:text="#{nav.lang.ar}">AR</span></a>
                     </li>
                 </ul>
             </div>

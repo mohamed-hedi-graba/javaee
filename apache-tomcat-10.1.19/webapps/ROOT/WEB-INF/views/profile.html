@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout :: head(#{profile.title})}"></head>
+<body>
+    <div th:replace="~{layout :: navbar}"></div>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h4 th:text="#{profile.info}">Account Information</h4>
+            </div>
+            <div class="card-body">
+                <p><strong th:text="#{profile.name}">Name:</strong> <span th:text="${session.loggedUser.name}"></span></p>
+                <p><strong th:text="#{profile.email}">Email:</strong> <span th:text="${session.loggedUser.email}"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

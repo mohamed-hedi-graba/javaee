@@ -81,4 +81,16 @@ public class WebConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor());
     }
+
+    @Bean
+    public org.springframework.validation.beanvalidation.LocalValidatorFactoryBean validator() {
+        org.springframework.validation.beanvalidation.LocalValidatorFactoryBean validator = new org.springframework.validation.beanvalidation.LocalValidatorFactoryBean();
+        validator.setValidationMessageSource(messageSource());
+        return validator;
+    }
+
+    @Override
+    public org.springframework.validation.Validator getValidator() {
+        return validator();
+    }
 }
